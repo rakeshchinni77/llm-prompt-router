@@ -1,0 +1,13 @@
+services:
+  llm-prompt-router:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-prompt-router
+    env_file:
+      - .env
+    ports:
+      - "${APP_PORT:-8000}:${APP_PORT:-8000}"
+    volumes:
+      - ./route_log.jsonl:/app/route_log.jsonl
+    restart: unless-stopped

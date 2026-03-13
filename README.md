@@ -10,6 +10,23 @@ This project implements an **LLM-powered prompt routing system** that classifies
 This approach improves **accuracy, modularity, and cost efficiency** compared to monolithic prompt designs.
 
 ---
+# LLM Prompt Router
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/framework-FastAPI-green)
+![Docker](https://img.shields.io/badge/container-Docker-blue)
+![LLM](https://img.shields.io/badge/LLM-Groq-orange)
+![Tests](https://img.shields.io/badge/tests-25%20passed-brightgreen)
+
+---
+
+## API Documentation
+
+FastAPI automatically generates OpenAPI documentation.
+
+![API Docs](docs/api_docs.png)
+
+---
 
 ## Architecture
 

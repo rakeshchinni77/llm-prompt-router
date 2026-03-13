@@ -8,9 +8,6 @@ __pycache__/
 # Environment Variables
 .env
 
-# Logs
-route_log.jsonl
-
 # OS files
 .DS_Store
 Thumbs.db
